@@ -5,11 +5,12 @@ from skimage.io import imread
 
 
 # download the image
-img_url = 'https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/Mount_Fuji_from_Mount_Aino.jpg/640px-Mount_Fuji_from_Mount_Aino.jpg'
+img_url = 
+'https://static.wixstatic.com/media/551be4_80cab8b432e144e2a2a1cf5cb7844a44~mv2.png/v1/fill/w_266,h_266,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/emp_tunecore%20(0%3B00%3B00%3B00)_2.png'
 
 im = imread(img_url)
 
-st.image(im, caption='image from wikimedia commons',
+st.image(im, caption='the EmpError',
          use_column_width=True)
 
 
