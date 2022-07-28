@@ -9,7 +9,7 @@ img_url = 'https://static.wixstatic.com/media/551be4_80cab8b432e144e2a2a1cf5cb78
 
 im = imread(img_url)
 
-st.image(im, caption='the EmpError',
+st.image(im, caption='the jacket of the EmpError',
          use_column_width=True)
 
 
